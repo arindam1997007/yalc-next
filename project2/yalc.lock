@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "@personal/project1": {
+      "version": "1.0.0",
+      "signature": "b99567a04e37ee87f08c64bf17f94c44",
+      "file": true
+    }
+  }
+}
