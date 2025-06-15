@@ -2,7 +2,8 @@
   "name": "@personal/project1",
   "version": "1.0.0",
   "scripts": {
-    "rollup": "rm -rf dist && rollup -c --bundleConfigAsCjs"
+    "rollup": "rm -rf dist && rollup -c --bundleConfigAsCjs",
+    "build:watch" : "rm -rf dist && rollup -c --watch --bundleConfigAsCjs"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +15,7 @@
     "@types/react": "^17.0.34",
     "react": "^17.0.2",
     "rollup": "^2.60.0",
+    "rollup-plugin-execute": "^1.1.1",
     "typescript": "^4.4.4"
   },
   "main": "dist/index.js",

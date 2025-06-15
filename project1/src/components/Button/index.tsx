@@ -16,6 +16,13 @@ const Button = ({ label }: { label: string }) => {
             setShowConfetti(false);
           }, 5000);
         }}
+        style={{
+          padding: "1rem 2rem",
+          fontSize: "1.5rem",
+          border: "1px solid #5c5c5c",
+          cursor: "pointer",
+          background: "black",
+        }}
       >
         {label}
       </button>
